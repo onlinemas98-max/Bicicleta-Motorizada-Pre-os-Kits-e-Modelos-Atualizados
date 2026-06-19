@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://onlinemas98-max.github.io/Bicicleta-Motorizada-Pre-os-Kits-e-Modelos-Atualizados/sitemap.xml
