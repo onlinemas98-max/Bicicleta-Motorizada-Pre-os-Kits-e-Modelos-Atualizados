@@ -48,6 +48,22 @@
             body { padding: 10px; }
             .cta-button { width: 100%; box-sizing: border-box; text-align: center; padding: 14px 10px; }
         }
+
+        /* Novos estilos dos Produtos Afiliados */
+        .produtos-afiliados{ max-width:900px; margin:30px auto; padding:0 15px; }
+        .produto-box{ display:flex; align-items:center; justify-content:space-between; gap:20px; border:2px solid #333; padding:20px; margin-bottom:20px; background:#fff; border-radius:6px; }
+        .produto-img{ width:140px; text-align:center; }
+        .produto-img img{ max-width:100%; height:auto; }
+        .produto-info{ flex:1; }
+        .produto-info h3{ font-size:22px; margin-bottom:10px; line-height:1.3; color:#222; }
+        .produto-info p{ font-size:16px; color:#555; }
+        .botao-afiliado{ background:#f28c38; color:#fff; text-decoration:none; padding:12px 22px; font-weight:bold; border-radius:4px; white-space:nowrap; transition:.3s; }
+        .botao-afiliado:hover{ background:#d97422; }
+        @media(max-width:768px){
+            .produto-box{ flex-direction:column; text-align:center; }
+            .produto-info h3{ font-size:20px; }
+            .botao-afiliado{ width:100%; max-width:250px; display:inline-block; }
+        }
     </style>
 </head>
 <body>
@@ -64,138 +80,44 @@
         <h3>Resumo Rápido: O que você precisa saber</h3>
         <p>A bicicleta motorizada de 2 tempos destaca-se pela sua excelente relação custo-benefício, simplicidade mecânica e alta potência de arrancada. Ela oferece uma autonomia impressionante (chegando a fazer mais de 40 km por litro) e possui manutenção barata que pode ser feita pelo próprio dono. É o veículo ideal para fugir do trânsito urbano, realizar entregas ou economizar no deslocamento diário sem a necessidade imediata de altos investimentos.</p>
     </div>
-<style>
-    .produtos-afiliados{
-    max-width:900px;
-    margin:30px auto;
-    padding:0 15px;
-    }
 
-    .produto-box{
-    display:flex;
-    align-items:center;
-    justify-content:space-between;
-    gap:20px;
-    border:2px solid #333;
-    padding:20px;
-    margin-bottom:20px;
-    background:#fff;
-    border-radius:6px;
-    }
-
-    .produto-img{
-    width:140px;
-    text-align:center;
-    }
-
-    .produto-img img{
-    max-width:100%;
-    height:auto;
-    }
-
-    .produto-info{
-    flex:1;
-    }
-
-    .produto-info h3{
-    font-size:22px;
-    margin-bottom:10px;
-    line-height:1.3;
-    color:#222;
-    }
-
-    .produto-info p{
-    font-size:16px;
-    color:#555;
-    }
-
-    .botao-afiliado{
-    background:#f28c38;
-    color:#fff;
-    text-decoration:none;
-    padding:12px 22px;
-    font-weight:bold;
-    border-radius:4px;
-    white-space:nowrap;
-    transition:.3s;
-    }
-
-    .botao-afiliado:hover{
-    background:#d97422;
-    }
-
-    @media(max-width:768px){
-
-    .produto-box{
-    flex-direction:column;
-    text-align:center;
-    }
-
-    .produto-info h3{
-    font-size:20px;
-    }
-
-    .botao-afiliado{
-    width:100%;
-    max-width:250px;
-    display:inline-block;
-    }
-    }
-    </style>
-
+    <!-- Bloco de Produtos Afiliados Adicionado Aqui -->
     <div class="produtos-afiliados">
-
-    <!-- PRODUTO 1 -->
-    <div class="produto-box">
-
-    <div class="produto-img">
-    <img src="https://i.postimg.cc/RFPjqHVz/BIKE-BICICLETA-MOTORIZADA-80CC-ARO-26-MODELO-CAICARA-1.webp" alt="Produto 1">
+        <!-- PRODUTO 1 -->
+        <div class="produto-box">
+            <div class="produto-img">
+                <img src="https://i.postimg.cc/RFPjqHVz/BIKE-BICICLETA-MOTORIZADA-80CC-ARO-26-MODELO-CAICARA-1.webp" alt="Produto 1">
+            </div>
+            <div class="produto-info">
+                <h3>BIKE BICICLETA MOTORIZADA 80CC ARO 26 MODELO CAICARA</h3>
+                <p>Melhor modelo para quem busca potência e desempenho.</p>
+            </div>
+            <a class="botao-afiliado" href="https://s.shopee.com.br/8pjaUcKMxb" target="_blank" rel="nofollow sponsored">Confira o Preço »</a>
+        </div>
+        <!-- PRODUTO 2 -->
+        <div class="produto-box">
+            <div class="produto-img">
+                <img src="https://i.postimg.cc/SRxV2T1V/BICICLETA-MOTORIZADA-80CC-BIKE-1.webp" alt="Produto 2">
+            </div>
+            <div class="produto-info">
+                <h3>BICICLETA MOTORIZADA 80CC BIKE</h3>
+                <p>Excelente custo-benefício e ótima avaliação.</p>
+            </div>
+            <a class="botao-afiliado" href="https://s.shopee.com.br/2BCgZfhl5T" target="_blank" rel="nofollow sponsored">Confira o Preço »</a>
+        </div>
+        <!-- PRODUTO 3 -->
+        <div class="produto-box">
+            <div class="produto-img">
+                <img src="https://i.postimg.cc/5tZSN98q/bicicleta-motorizada-80cc-VMAX-26-suspensao-2-andar-bike-freio-no-pe-1.webp" alt="Produto 3">
+            </div>
+            <div class="produto-info">
+                <h3>bicicleta motorizada 80cc VMAX 26 suspensão 2 andar bike freio no pe</h3>
+                <p>Ideal para transformar sua bicicleta em motorizada.</p>
+            </div>
+            <a class="botao-afiliado" href="https://s.shopee.com.br/qhJ0xITYF" target="_blank" rel="nofollow sponsored">Confira o Preço »</a>
+        </div>
     </div>
 
-    <div class="produto-info">
-    <h3>BIKE BICICLETA MOTORIZADA 80CC ARO 26 MODELO CAICARA</h3>
-    <p>Melhor modelo para quem busca potência e desempenho.</p>
-    </div>
-
-    <a class="botao-afiliado" href="https://s.shopee.com.br/8pjaUcKMxb" target="_blank" rel="nofollow sponsored">
-    Confira o Preço »
-    </a>
-
-    </div>
-
-    <!-- PRODUTO 2 -->
-    <div class="produto-box">
-
-    <div class="produto-img">
-    <img src="https://i.postimg.cc/SRxV2T1V/BICICLETA-MOTORIZADA-80CC-BIKE-1.webp" alt="Produto 2">
-    </div>
-
-    <div class="produto-info">
-    <h3>BICICLETA MOTORIZADA 80CC BIKE</h3>
-    <p>Excelente custo-benefício e ótima avaliação.</p>
-    </div>
-
-    <a class="botao-afiliado" href="https://s.shopee.com.br/2BCgZfhl5T" target="_blank" rel="nofollow sponsored">
-    Confira o Preço »
-    </a>
-
-    </div>
-
-    <!-- PRODUTO 3 -->
-    <div class="produto-box">
-
-    <div class="produto-img">
-    <img src="https://i.postimg.cc/5tZSN98q/bicicleta-motorizada-80cc-VMAX-26-suspensao-2-andar-bike-freio-no-pe-1.webp" alt="Produto 3">
-    </div>
-
-    <div class="produto-info">
-    <h3>bicicleta motorizada 80cc VMAX 26 suspensão 2 andar bike freio no pe</h3>
-    <p>Ideal para transformar sua bicicleta em motorizada.</p>
-    </div>
-
-    <a class="botao-afiliado" href="https://s.shopee.com.br/qhJ0xITYF" target="_blank" rel="nofollow sponsored">
-    Confira o Preço »
-    </a>
     <div class="indice">
         <h3>Índice de Conteúdo</h3>
         <ul>
@@ -233,7 +155,7 @@
     
     <p>Quando o pistão sobe, ele comprime a mistura anterior na câmara de combustão localizada no topo do cilindro, enquanto puxa uma nova carga de mistura para a parte inferior. A vela de ignição solta uma faísca exata no momento de máxima compressão, detonando o combustível.</p>
     
-    <p>A expansão dos gases empurra o pistão violentamente para baixo. Na descida, o pistão abre as janelas de exaustão, permitindo a saída dos gases queimados para o escapamento, ao mesmo tempo em que empurra a nova mistura fresca do cárter para cima, reiniciando o ciclo de forma ininterrupta.</p>
+    <p>A expansão dos gases empurra o pistão violentamente para baixo. Na descida, o pistão opens as janelas de exaustão, permitindo a saída dos gases queimados para o escapamento, ao mesmo tempo em que empurra a nova mistura fresca do cárter para cima, reiniciando o ciclo de forma ininterrupta.</p>
     
     <p>A transmissão dessa força para a roda traseira é feita por meio de uma corrente secundária ligada a uma coroa dentada parafusada nos raios da roda traseira. Para colocar a bicicleta em movimento, o condutor utiliza os pedais para vencer a inércia inicial, solta a alavanca de embreagem manual localizada no guidão e o motor "pega no tranco", assumindo o controle da tração.</p>
 
@@ -364,7 +286,7 @@
     
     <p>A resposta curta e objetiva é: <strong>Sim, vale muito a pena</strong>, desde que as suas necessidades estejam alinhadas com a proposta do veículo. Se você precisa percorrer distâncias de até 20 ou 30 quilômetros por dia dentro da cidade, quer se livrar do cansaço extremo dos pedais em subidas, não tem orçamento para manter um carro ou moto e deseja gastar pouquíssimo com combustível, a bicicleta motorizada 2 tempos é imbatível.</p>
     
-    <p>Ela se paga em pouquíssimos meses de uso se comparada ao valor gasto com passagens de ônibus, metrô ou corridas por aplicativo. Contudo, se você busca conforto absoluto, silêncio total e não quer ter nenhum tipo de trabalho mecânico ou contato com graxa e óleo, talvez valha a pena guardar mais dinheiro para investir em uma bicicleta elétrica ou em uma scooter de 4 tempos.</p>
+    <p>Ela se paga em pouquíssimos meses de uso se comparada ao valor gasto com passagens de ônibus, metrô ou corridas por aplicativo. Contudo, se você busca conforto absoluto, silêncio total e não quer tener nenhum tipo de trabalho mecânico ou contato com graxa e óleo, talvez valha a pena guardar mais dinheiro para investir em uma bicicleta elétrica ou em uma scooter de 4 tempos.</p>
 
     <h2 id="onde-comprar">Onde Comprar com Segurança</h2>
     
@@ -455,13 +377,9 @@
         <h4>Artigos Relacionados Sugeridos:</h4>
         <p>• Como Escolher o Melhor Óleo 2 Tempos para sua Bicicleta Motorizada<br>
         • Guia Prático de Instalação: Transformando sua Bike Comum em Motorizada Passo a Passo</p>
-       </ul>
     </div>
 
-    <div class="back-link">
-        <a href="https://onlinemas98-max.github.io/Bicicleta-Motorizada-Pre-os-Kits-e-Modelos-Atualizados/#">
-            ← Voltar para Home
-        </a>
-    </div>
+    <a href="#" class="back-home">← Voltar para Home</a>
+
 </body>
 </html>
